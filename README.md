@@ -30,21 +30,21 @@ userSig（用户签名）是用于对一个用户进行鉴权认证，确认用�
 
 为方便开发者接入开发测试，我们在腾讯云控制台提供了快速生成usersig的工具（在这之前你需要先在腾讯云创建自己的IM应用，可参考[云通信 IM 入门](https://cloud.tencent.com/product/im/getting-started)）。登录控制台后选择——云通信——应用列表（选择您当前在使用的应用）——应用配置——开发辅助工具，参考上面说明即可生成usersig。
 
-## 集成TUIKit:
+## 集成TUIKit
 
 首先开发者需在自身主工程的build.grale文件的依赖配置中添加TUIKit的引用
 
 ```java
 dependencies {
     ...
-    implementation 'com.tencent.qcloud.uikit:tuikit:0.0.1.156'
+    implementation 'com.tencent.qcloud.uikit:tuikit:0.0.1.161'
 }
 
 ```
 
-TUIKit会自动加载所需的IMSDK。目前加载的IMSDK版本是V3.5.0.156。
+TUIKit会自动加载所需的IMSDK。目前加载的IMSDK版本是V3.5.0.161。
 
-## 初始化TUIKit:
+## 初始化TUIKit
 
 通常情况下TUIKit的初始化非常简单，只需调用下面接口初始化默认配置即可。
 
@@ -599,6 +599,6 @@ public interface IChatPanel {
 
 ## 快速体验
 
-欢迎扫码体验我们的DEMO, 后续会继续完善，更多最新资讯请关注 [这里](https://github.com/zhaoyang21cn/IMTUIkit_android)。
+欢迎扫码体验我们的DEMO，后续会继续完善，敬请期待。
 
 ![](https://main.qcloudimg.com/raw/fe3ef4a58c3efa5388e57a653133f392.png)
